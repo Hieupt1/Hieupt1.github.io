@@ -1,0 +1,136 @@
+body {
+	margin: auto;
+	max-width: 1080px;
+}
+
+#header {
+	width:1080px;
+	height: 160px;
+	padding:10px;
+	background-color: #004d1a;
+	font-size: 50px;
+	font-style: italic;
+	font-family: Gahamond;
+	color: #ffffb3;
+	text-align: center;
+	text-height: 20px;
+}
+
+#list {
+	width:1080px;
+	height: 25px;
+	background-color: #c2f0c2;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bolder;
+	padding:10px;
+}
+
+
+.items div {
+	width:196px;
+	height: 300px;
+	padding:10px;
+	float: left;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	font-weight: bolder;
+}
+
+a:click	{
+	color: blue;
+}
+
+
+
+#sp1 {
+	background-image: 	
+	url("https://cdn1.tgdd.vn/Products/Images/1942/102936/tivi-led-samsung-ua65mu6100-1-550x340.png");
+	background-size: 196px auto;
+	background-repeat: no-repeat, repeat;
+	background-position: center center, center center;
+}
+
+#sp2 {
+	background-image: 	
+	url("https://cdn4.tgdd.vn/Products/Images/1943/108414/tu-lanh-panasonic-nr-cy558gkvn-300x300.png");
+	background-size: 196px auto;
+	background-repeat: no-repeat, repeat;
+	background-position: center center, center center;
+}
+
+#sp3 {
+	background-image: 	
+	url("https://cdn.tgdd.vn/Products/Images/1944/118847/may-giat-samsung-flexwash-wr24m9960kv-5-org.jpg");
+	background-size: 196px auto, auto auto;
+	background-repeat: no-repeat, repeat;
+	background-position: center center, center center;
+}
+
+#sp4 {
+	background-image: 	
+	url("https://cdn.tgdd.vn/Products/Images/2002/113810/gree-gwc09ub-s6dna4a-1-org.jpg");
+	background-size: 196px auto, auto auto;
+	background-repeat: no-repeat, repeat;
+	background-position: center center, center center;
+}
+
+#sp5 {
+	background-image: 	
+	url("https://cdn.tgdd.vn/Products/Images/1987/79385/lo-vi-song-midea-mmo-20ke1--300x300.jpg");
+	background-size: 196px auto, auto auto;
+	background-repeat: no-repeat, repeat;
+	background-position: center center, center center;
+}
+
+#sp6 {
+	background-image: 	
+	url("https://cdn2.tgdd.vn/Products/Images/5205/134797/binh-giu-nhiet-inox-750ml-dmx-bg004-5-300x300.jpg");
+	background-size: 196px auto, auto auto;
+	background-repeat: no-repeat, repeat;
+	background-position: center center, center center;
+}
+
+#sp7 {
+	background-image: 	
+	url("https://cdn3.tgdd.vn/Products/Images/42/87838/iphone-7-256gb-12-300x300.jpg");
+	background-size: 196px auto, auto auto;
+	background-repeat: no-repeat, repeat;
+	background-position: center center, center center;
+}
+
+#sp8 {
+	background-image: 	
+	url("https://cdn.tgdd.vn/Products/Images/86/73125/chuot-khong-day-genius-nx-7010-300x300.jpg");
+	background-size: 196px auto, auto auto;
+	background-repeat: no-repeat, repeat;
+	background-position: center center, center center;
+}
+
+#sp9 {
+	background-image: 	
+	url("https://cdn1.tgdd.vn/Products/Images/3385/101976/kangaroo-kg110vtu-1-daidien-1-190x190.png");
+	background-size: 196px auto, auto auto;
+	background-repeat: no-repeat, repeat;
+	background-position: center center, center center;
+}
+
+#sp10 {
+	background-image: 	
+	url("https://cdn.tgdd.vn/Products/Images/1992/108600/quat-asia-a16009-dv1-190x190.png");
+	background-size: 196px auto, auto auto;
+	background-repeat: no-repeat, repeat;
+	background-position: center center, center center;
+}

@@ -1,0 +1,48 @@
+body {
+	margin: auto;
+	max-width: 1080px;
+
+}
+
+#header {
+	width:1080px;
+	height: 160px;
+	padding:10px;
+	background-color: #004d1a;
+	font-size: 50px;
+	font-style: italic;
+	font-family: Gahamond;
+	color: #ffffb3;
+	text-align: center;
+	text-height: 20px;
+}
+
+
+#list {
+	width:1080px;
+	height: 25px;
+	background-color: #c2f0c2;
+	padding:10px;
+	font-size: 20px;
+	font-family: arial;
+}
+
+body div img {
+	max-width: 500px;
+	float: right;
+}
+
+#detail {
+	max-width:580px;
+	float: left;
+	text-indent: 10px;
+	font-size: 20px;
+}
+
+#price {
+	text-indent: 10px;
+	font-size: 35px;
+	color: #990000;
+}
+
+

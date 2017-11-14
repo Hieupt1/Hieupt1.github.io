@@ -1,0 +1,115 @@
+body {
+    margin: auto;
+    width: 90%;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+#logo {
+    position: relative;
+    top: -86px;
+    left: 68px;
+    width: 30%;
+    float: left;
+    color:white;
+    font-size: 250%;
+}
+
+.menu1 {
+    position: relative;
+    top: -76px;
+    left: auto;
+    width: 10%;
+    float: right;
+    padding-top: 14px;
+    color: white;
+    font-size: 120%;
+}
+
+.menu2 {
+    position: relative;
+    top: -76px;
+    left: auto;
+    width: 10%;
+    float: right;
+    padding-top: 14px;
+    color:white;    
+    font-size: 120%;
+    
+}
+
+.menu3 {
+    position: relative;
+    top: -76px;
+    left: auto;
+    width: 10%;
+    float: right;
+    padding-top: 14px;
+    color: white;    
+    font-size: 120%;
+    
+}
+
+.menu4 {
+    position: relative;
+    top: -76px;
+    left: auto;
+    width: 10%;
+    float: right;
+    padding-top: 14px;
+    color: white;    
+    font-size: 120%;
+    
+}
+
+.menu5 {
+    position: relative;
+    top: -76px;
+    left: auto;
+    width: 10%;
+    float: right;
+    padding-top: 14px;
+    color: white;    
+    font-size: 120%;
+    
+}
+
+.menu6 {
+    position: relative;
+    top: -76px;
+    left: auto;
+    width: 10%;
+    float: right;
+    padding-top: 14px;
+    color: white;    
+    font-size: 120%;
+    
+}
+
+.item {
+    width: 100%;
+    height: 50px;
+    float: left;
+    padding-left: 68px;
+    padding-bottom: 30px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+    font-weight:bolder;
+}
+
+.img img {
+    box-sizing: margin-box;
+    max-width: 32.8%;
+    max-height: 49.2%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    float: left;
+
+}

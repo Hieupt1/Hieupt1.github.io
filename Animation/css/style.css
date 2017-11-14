@@ -1,0 +1,55 @@
+body {
+    margin: auto;
+    width: 80%;
+    background-image: url('https://wallpaperscraft.com/image/walls_rocks_bricks_background_texture_50656_2560x1600.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#header {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes appear {
+    0% {opacity:0;}
+    100% {opacity: 1;}
+}
+.row img {
+    max-width: 354px;
+    max-height: 252px;
+    width: 354px;
+    height: 252px;
+    margin: 1%;
+    border-style: groove;
+    float: left;
+    animation: appear 2s ease-in-out;
+    transition: all 0.2s linear;
+}
+
+
+
+.row img:hover {
+    transform: translate(0,-15px);
+    box-shadow: 0 5px 10px 0px gray;
+}
+
+@keyframes changeColor {
+    0%  {color: black}
+    25%  {color: gray;}
+    50%  {color: #F8DEBD;}
+    75%  {color: #FFFFFF;}
+    100% {color: firebrick;}
+}
+
+#footer {
+    display: block;
+    text-align: right;
+    margin-right: 29px;
+    padding-top: 50px;
+    font-weight: bold;
+    animation: changeColor 5s ease infinite;
+}
+
+

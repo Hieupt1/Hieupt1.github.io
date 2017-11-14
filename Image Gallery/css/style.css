@@ -113,3 +113,7 @@ body {
     float: left;
 
 }
+
+.Row img :hover {
+    opacity: 0.68;
+}

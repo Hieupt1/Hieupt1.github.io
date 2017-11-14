@@ -114,6 +114,6 @@ body {
 
 }
 
-.Row img :hover {
+.Row img:hover {
     opacity: 0.68;
 }

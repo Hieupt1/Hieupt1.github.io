@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    width: 80%;
+    color: #333;
+    font-family: sans-serif;
+}
+
+#menu ul {
+    list-style-type: none;
+    background: #0b3e67;
+    text-align: center;
+}
+
+#menu ul li {
+    color: red;
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+#menu ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+}
+
+#menu ul li a:hover {
+    background: green;
+    color:goldenrod;
+}
+
+#menu ul li > .SanPham {
+    display: none;
+    position: absolute;
+}
+
+#menu ul li > .SanPham li {
+    width: 200px;
+    /*border: 1px solid white;*/
+    text-align: left;
+    text-indent: 10px;
+}
+
+#menu ul li:hover .SanPham {
+    display: block;
+}
+
+
+
+

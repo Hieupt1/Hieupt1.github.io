@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    width: 100%;
+    color: #333;
+    font-family: sans-serif;
+}
+
+/*menu*/
+
+#menu ul {
+    list-style-type: none;
+    background: #df190b;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+}
+
+#menu ul li {
+    display: inline-table;
+    width: 10%;
+    height: 45px;
+    line-height: 50px;
+    position: relative;
+}
+
+#menu ul li a {
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+
+}
+
+#menu ul li a:hover {
+    color:gold;
+}
+
+#logo {
+    position: absolute;
+    top: 0px;
+    left: 42%;
+    z-index: 100;
+}
+
+/*Discount*/
+
+@keyframes ChangeDiscount {
+    0% {background-image:url("../img/discount1.jpg"); background-repeat: no-repeat; background-position: center 20%;}
+    50% {background-image:url("../img/discount2.jpg"); background-repeat: no-repeat; background-position: center 20%;}
+    100% {background-image:url("../img/discount3.jpg"); background-repeat: no-repeat; background-position: center 20%;}
+    
+}
+
+#Discount {
+    width: 100%;
+    height: 375px;
+    padding-top: 225px;
+    animation: ChangeDiscount 20s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #cf2e26;
+    width: 100%;
+    float: left;
+    /*position: absolute;
+    top: 78%;
+    right: 0%;
+    z-index: 9;*/
+    padding: 20px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.footer #DatHang {
+    float: left;
+    box-sizing: border-box;
+    width: 33%;
+}
+
+.footer #NhuongQuyen {
+    float: left;
+    box-sizing: border-box;
+    width: 33%;
+}
+
+.footer #TimCuaHang {
+    float: left;
+    box-sizing: border-box;
+    width: 33%;
+}
+
+/*Info*/
+
+.info {
+    background-color: gainsboro;
+    width: 100%;
+    float: left;
+    /*position: absolute;
+    top: 96%;
+    right: 0%;
+    z-index: 10;*/
+    padding: 10px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.info p {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 3% 0 10%;
+
+}
+

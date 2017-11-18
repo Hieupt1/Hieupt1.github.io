@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    width: 100%;
+    color: #333;
+    font-family: sans-serif;
+}
+
+/*menu*/
+
+#menu ul {
+    list-style-type: none;
+    background: #df190b;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+}
+
+#menu ul li {
+    display: inline-table;
+    width: 10%;
+    height: 45px;
+    line-height: 50px;
+    position: relative;
+}
+
+#menu ul li a {
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+
+}
+
+#menu ul li a:hover {
+    color:gold;
+}
+
+#logo {
+    position: absolute;
+    top: 0px;
+    left: 42%;
+    z-index: 100;
+}
+
+/*SP*/
+
+.sp  {
+    width: 100%;
+    float: left;
+    margin: auto;
+}
+
+.sp .spImg {
+    box-sizing: border-box;
+    width: 55%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    margin: 250px auto 0px;
+    
+}
+
+.sp .spImg img {
+    width: 40%;
+    transition: all 0.5s ease;
+}
+
+.sp .spImg img:hover {
+    transform: translate(20px,0)
+}
+
+.sp .menuName {
+    box-sizing: border-box;
+    width: 16%;
+    height: 50px;
+    margin: 250px 0 0 0;
+    text-align: left;
+    line-height: 10px;
+    font-size: 14px;
+    float: left;
+}
+
+.sp .menuName a {
+    text-decoration: none;
+    color: black;
+}
+
+.sp .menuName a:hover {
+    color: #df190b;
+}
+
+.sp #back {
+    box-sizing: border-box;
+    width: 16%;
+    height: 50px;
+    margin: 250px 0 0 0;
+    text-align: right;
+    line-height: 10px;
+    font-size: 14px;
+    float: left;
+}
+
+.sp #back a {
+    text-decoration: none;
+    color: black;
+}
+
+.sp #back a:hover {
+    color: #df190b;
+}
+
+.sp .spName {
+    box-sizing: border-box;
+    width: 16%;
+    height: 68px;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 36px;
+    font-weight: bold;
+    color: #df190b;
+    float: left;
+}
+
+.sp .spInfo {
+    box-sizing: border-box;
+    width: 16%;
+    height: 68px;
+    margin: 20px 20px;
+    text-align: left;
+    font-size: 16px;
+    color: black;
+    float: left;
+}
+
+.sp .spPrice {
+    box-sizing: border-box;
+    width: 16%;
+    height: 100px;
+    margin: 0px auto;
+    text-align: left;
+    float: left;
+}
+
+.sp .select {
+    box-sizing: border-box;
+    width: 40%;
+    height: 68px;
+    margin: 10px auto;
+    text-align: left;
+    font-weight: bold;
+    color: #df190b;
+    float: left;
+}
+
+.sp .select #bottom {
+    width: 89px; 
+    height:28px;
+    line-height:28px; 
+    color: white; 
+    font-size: 14px; 
+    text-align: center;
+    background-color: #cf2e26; 
+    border-radius: 14px;
+    float: left;
+}
+
+.sp .select #bottom:hover {
+    background-color: rgb(132, 207, 11);
+}
+
+
+/*info*/
+
+.info {
+    background-color: gainsboro;
+    width: 100%;
+    float: left;
+    margin-top: 120px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.info p {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 3% 0 10%;
+}

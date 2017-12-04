@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    width: 100%;
+    color: #333;
+    font-family: sans-serif;
+}
+
+/*menu*/
+
+#menu ul {
+    list-style-type: none;
+    background: #df190b;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+}
+
+#menu ul li {
+    display: inline-table;
+    width: 10%;
+    height: 45px;
+    line-height: 50px;
+    position: relative;
+}
+
+#menu ul li a {
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+
+}
+
+#menu ul li a:hover {
+    color:gold;
+}
+
+#logo {
+    position: absolute;
+    top: 0px;
+    left: 42%;
+    z-index: 100;
+}
+
+/*banner*/
+
+#banner {
+    width:100%;
+    margin-bottom: 15px;
+}
+
+
+/*list*/
+
+.list  {
+    width: 100%;
+    float: left;
+    margin: auto;
+}
+
+.list .item {
+    box-sizing: border-box;
+    width: 30%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    margin: auto;
+}
+
+.list .blank {
+    box-sizing: border-box;
+    width: 5%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    margin: auto;
+}
+
+.list .item .isp img {
+    width: 50%;
+    padding: 60px 0;
+    height: auto;
+    transition: all 0.5s ease;
+}
+
+.list .item .isp img:hover {
+    transform: translate(0,-30px)
+}
+
+.list .item .namesp a{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.list .item .namesp a:hover {
+    color: #df190b;
+}
+
+.list .item .price {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.list .item .select {
+    width: 89px; 
+    height:28px;
+    line-height:28px; 
+    color: white; 
+    font-size: 14px; 
+    background-color: #cf2e26; 
+    border-radius: 14px;
+    margin: 20px 39% 0 39%;
+
+}
+
+/*info*/
+
+.info {
+    background-color: gainsboro;
+    width: 100%;
+    float: left;
+    margin-top: 120px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.info p {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 3% 0 10%;
+}

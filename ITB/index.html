@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ITBooks</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/Logo 2.png">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./other source/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <!-- font-awseome -->
+    <link rel="stylesheet" href="./other source/fontawesome-free-5.0.6/on-server/css/fontawesome-all.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="./other source/animate.css">
+    <!-- gg font -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <!-- W3.CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+
+    <!-- Button back to top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up fa-lg"></i>  </button>
+    <!-- Button back to top -->
+        
+    <!-- Click to call button -->
+    <a href="tel:5555555555">
+        <button id="call_button">
+                <i class="fas fa-phone"></i>
+        </button>
+    </a>
+    <!-- Click to call button -->
+
+
+    <!-- HEAD CONTAINER (BELOW) -->
+    <div class="container">
+
+        
+        <!-- Logo (below) -->
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <p id="slogon">Sách hay cũng như bạn tốt!</p>
+            </div>
+
+            <div id="Logo" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center animated rubberBand ">
+                <a href="./index.html" ><img src="./images/logo.png" alt="Logo"> </a>  
+            </div>
+
+            <div id="login_form" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-right">
+                <button id="signup" type="submit">Đăng ký </button>
+                <button id="login" type="submit">Đăng nhập </button>
+            </div>
+            
+
+        </div>
+        <!-- Logo (above) -->
+
+
+        <!-- Side nav (below) -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">&#9776; <b>DANH MỤC SÁCH</b> </a>
+            <a href="#"></a>
+
+            <a href="./html/Category 1/category1.html" style="color: Tomato;">KHOA HỌC CÔNG NGHỆ</a>
+            <a href="./html/Category 1/category1.html"><i class="fas fa-angle-right"></i> Khoa học máy tính</a>
+            <a href="./html/Category 1/category1.html"><i class="fas fa-angle-right"></i> Công nghệ thông tin</a>
+            <a href="./html/Category 1/category1.html"> <i class="fas fa-angle-right"></i> Lastest Technology</a>
+            <a href="#"></a>
+            
+            <a href="./html/Category 2/category2.html" style="color: Tomato;">STARTUP</a>
+            <a href="./html/Category 2/category2.html"><i class="fas fa-angle-right"></i>  Câu chuyện Startup</a>    
+            <a href="#"></a>      
+
+            <a href="./html/Category 3/category3.html" style="color: Tomato;">KINH DOANH</a>
+            <a href="./html/Category 3/category3.html"> <i class="fas fa-angle-right"></i> Lãnh đạo và khởi nghiệp</a>
+            <a href="./html/Category 3/category3.html"><i class="fas fa-angle-right"></i>  Doanh nhân và tập đoàn</a>
+            <a href="./html/Category 3/category3.html"> <i class="fas fa-angle-right"></i> Truyền thông, thương hiệu</a>
+            <a href="./html/Category 3/category3.html"><i class="fas fa-angle-right"></i>  Đàm phán, thuyết phục</a>
+            <a href="./html/Category 3/category3.html"> <i class="fas fa-angle-right"></i> Văn hoá doanh nghiệp</a>
+            <a href="./html/Category 3/category3.html"> <i class="fas fa-angle-right"></i> Khác</a>
+            <a href="#"></a>
+            
+            <a href="./html/Category 4/category4.html" style="color: Tomato;">PHÁT TRIỂN BẢN THÂN</a>
+            <a href="#"></a>
+
+            <a href="./html/Category 5/category5.html" style="color: Tomato;">VĂN HOÁ NGHỆ THUẬT</a>
+            <a href="#"></a>
+
+            <a href="./html/Category 6/category6.html" style="color: Tomato;">TÁC GIẢ VIỆT</a>
+            <a href="#"></a>
+
+            <a href="#" style="color: Tomato;">ĐÓNG GÓP Ý KIẾN</a>
+            <a href="#"></a>
+
+        </div>
+
+        <!-- Side nav (above) -->
+
+
+        <!-- Menu (below)-->
+        <div class="row">
+
+            <nav class="topnav" id="myTopnav">
+
+                <!-- Open -->
+                <a id="home" onclick="openNav()" href="#"><img src="./images/Logo 2.png" alt=""></a>
+
+                <!-- Open -->
+
+                <a href="#news">Trang chủ</a>
+                <a href="#news">Giới thiệu</a>
+                <a href="#contact">Tin tức</a>
+                <a href="#about">Blog</a>
+                <a href="#about">Liên hệ</a>
+
+                <!-- shopping icon -->
+                <button class="shoping" style=" color:Tomato">
+                    <i class="fas fa-shopping-cart fa-lg"></i>
+                    <span class="badge">0</span>
+                </button>
+
+                <!-- search input -->
+                <div class="search-container">
+                    <form>
+                        <input type="text" placeholder="Search..." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <!-- menu icon -->
+                <a href="javascript:void(0);" class="icon" onclick="menu()">&#9776;</a>
+            </nav>
+
+        </div>
+
+        <!-- Menu (above) -->
+
+        <!-- Slideshow container (below) -->
+        <div class="row">
+             <div class="slideshow-container">
+
+                <a href="#">
+                    <div class="mySlides animated flash">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="./images/slider-re2.jpg" style="width:100%">
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="mySlides animated flash">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="./images/slider-re4.jpg" style="width:100%">
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="mySlides animated flash">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="./images/slider-re5.jpg" style="width:100%">
+                    </div>
+                </a>
+            
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                <div class="dot_list" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>  
+
+            </div>
+                  
+        </div>
+
+        <!-- Slideshow container (above) -->
+    
+    </div>
+
+    <!-- HEAD CONTAINER (ABOBE) -->
+
+    <!-- MAIN CONTAINER (BELOW)) -->
+    <div class="container" style="border: 0.1px #f2f2f2 solid">
+
+        <!-- MAIN ROW (BELOW) -->
+        <div class="row">
+            
+            <!-- Sidebar(below) -->
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+
+                <!-- Sidebar book menu(below) -->
+                <div id="book_menu">
+                    <i class="fa fa-bars"></i> DANH MỤC SÁCH
+                </div>
+                    
+                <button class="accordion">Khoa học - Công nghệ</button>
+                <div class="panel">
+                    <a href="./html/Category 1/category1.html" class="w3-block link">
+                        <div style="margin:20px 0px;"> <i class="fas fa-angle-right"></i> Khoa học máy tính </div>
+                    </a>
+                    <a href="./html/Category 1/category1.html" class="w3-block link">
+                        <div style="margin:20px 0px;"> <i class="fas fa-angle-right"></i> Công nghệ thông tin </div>
+                    </a>
+                    <a href="./html/Category 1/category1.html" class="w3-block link">
+                        <div style="margin:20px 0px;"> <i class="fas fa-angle-right"></i> Lastest Technology </div>
+                    </a>
+        
+                </div>
+
+                <button class="accordion">Startup</button>
+                <div class="panel">
+                    <a href="./html/Category 2/category2.html" class="w3-block link">
+                        
+                        <div style="margin:20px 0px;"> <i class="fas fa-angle-right"></i>Câu chuyện Startup </div>
+                    </a>
+                </div>
+
+                <button class="accordion">Kinh doanh</button>
+                <div class="panel">
+                    <a href="./html/Category 3/category3.html" class="w3-block link">
+                        
+                        <div style="margin:20px 0px;"> <i class="fas fa-angle-right"></i>  Lãnh đạo, Khởi nghiệp </div>
+                    </a>
+                    <a href="./html/Category 3/category3.html" class="w3-block link">
+                        
+                        <div style="margin:20px 0px;"> <i class="fas fa-angle-right"></i> Doanh nhân và Tập đoàn</div>
+                    </a>
+                    <a href="./html/Category 3/category3.html" class="w3-block link">
+                        
+                        <div style="margin:20px 0px;">  <i class="fas fa-angle-right"></i> Truyền thông, thương hiệu </div>
+                    </a>
+                    <a href="./html/Category 3/category3.html" class="w3-block link">
+                        
+                        <div style="margin:20px 0px;"> <i class="fas fa-angle-right"></i> Đàm phán thuyết phục</div>
+                    </a>
+                    <a href="./html/Category 3/category3.html" class="w3-block link">
+                        
+                        <div style="margin:20px 0px;"> <i class="fas fa-angle-right"></i> Văn hoá doanh nghiệp </div>
+                    </a>
+                    <a href="./html/Category 3/category3.html" class="w3-block link">
+                        
+                        <div style="margin:20px 0px;"> <i class="fas fa-angle-right"></i> Khác </div>
+                    </a>
+                </div>
+
+                <button class="accordion">Phát triển bản thân</button>
+                <div class="panel">
+                    <a href="./html/Category 4/category4.html" class="w3-block link">
+                        
+                        <div style="margin:20px 0px;"> <i class="fas fa-angle-right"></i> Phát triển bản thân </div>
+                    </a>
+                    
+                </div>
+
+                <button class="accordion">Văn hoá, nghệ thuật</button>
+                <div class="panel">
+                    <a a href="./html/Category 5/category5.html" class="w3-block link">
+                        
+                        <div style="margin:20px 0px;"> <i class="fas fa-angle-right"></i> Văn hoá nghệ thuật </div>
+                    </a>
+                    
+                </div>
+
+                <button class="accordion">Tác giả Việt</button>
+                <div class="panel">
+                    <a a href="./html/Category 6/category6.html" class="w3-block link">
+                        
+                        <div style="margin:20px 0px;"> <i class="fas fa-angle-right"></i> Câu chuyện kinh doanh </div>
+                    </a>
+                    
+                </div>
+                <!-- Sidebar book menu(above) -->
+
+
+                <!-- Special Book (below) -->
+                <div id="special_book">
+                    <a href="#">SÁCH ĐẶC BIỆT</a>
+                </div>
+
+                <!-- Book -->
+                <a href="./html/Category 1/book.html">
+                    <div class="img_book">
+                        <img class="img-responsive" src="./images/warren-buffett-nhung-dau-tu-vi-dai-nhat-the-gioi-duoi-goc-nhin-truyen-thong.jpg" alt="">
+                        <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+
+                    </div>
+                </a>
+                
+                <div class="info_book">
+                    <a href="./html/Category 1/book.html"> <p class="book_name">Warrent Bufett - Nhà đầu tư huyền thoại nhất thế giới</p> </a>
+                    <p class="book_price">Giá: 200.000 đ</p>
+                    <!-- Add icon library -->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <!-- Special Book (above) -->
+
+                <!-- Discount Book(below) -->
+                <div id="new_book">
+                    <a href="">SÁCH GIẢM GIÁ </a>
+                </div>
+
+                <!-- Book -->
+                <div class="row discount_book">
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <a href="./html/Category 1/book 1.html">
+                            <div class="img_book_dis">
+                                <img class="img-responsive" src="./images/Category1/du-lieu-lon.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="info_book_dis">
+                            <a href="#"> <p class="book_name">Dữ liệu lớn</p> </a>
+                            <p class="book_price">Giá: 129.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>    
+                    </div>
+
+                </div>
+
+                <!-- Book -->
+                <div class="row">
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <a href="./html/Category 1/book 6.html">
+                            <div class="img_book_dis">
+                                <img class="img-responsive" src="./images/Category1/google-cau-chuyen-than-ky.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="info_book_dis">
+                            <a href="#"> <p class="book_name">Google - Câu chuyện thần kỳ </p> </a>
+                            <p class="book_price">Giá: 63.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>    
+                    </div>
+
+                </div>
+                
+                <!-- Discount Book(above) -->
+
+
+                <!-- Combo (below) -->
+
+                <div id="new_book">
+                    <a href="">COMBO SÁCH </a>
+                </div>
+
+                <!-- Book -->
+                <div class="row discount_book">
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <a href="#">
+                            <div class="img_book_dis">
+                                <img class="img-responsive" src="./images/combo-business-model.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="info_book_dis">
+                            <a href="#"> <p class="book_name">Combo Business Model</p> </a>
+                            <p class="book_price">Giá: 519.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>    
+                    </div>
+
+                </div>
+
+                <!-- Book -->
+                <div class="row">
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <a href="#">
+                            <div class="img_book_dis">
+                                <img class="img-responsive" src="./images/tu-duy-nhanh-va-cham.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="info_book_dis">
+                            <a href="#"> <p class="book_name">Combo Siêu tư duy</p> </a>
+                            <p class="book_price">Giá: 200.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>    
+                    </div>
+
+                </div>
+
+
+                <!-- Combo (above) -->
+
+
+            </div>
+            <!-- Sidebar(above) -->
+
+            <!-- Book sepatated (below) -->
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+
+                <!-- row new book (below) -->
+
+                <div id="new_book">
+                    <a href="">SÁCH MỚI </a>
+                </div>
+
+                
+                <div class="row">
+                    
+                    <!-- Book -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="./html/Category 1/book 4.html">
+                            <div class="img_book">
+                                <img class="img-responsive" src="./images/Category1/blockchain.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+                            </div>
+                        </a>
+                        
+                        <div class="info_book">
+                            <a href="./html/Category 1/book 4.html"> <p class="book_name">Blockchain</p> </a>
+                            <p class="book_price">Giá: 169.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                        </div>
+                    </div>
+
+                    <!-- Book -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="./html/Category 1/book 3.html">
+                            <div class="img_book">
+                                <img class="img-responsive" src="./images/Category1/internet-cua-tien-te.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+
+                            </div>
+                        </a>
+                        
+                        <div class="info_book">
+                            <a href="./html/Category 1/book 3.html"> <p class="book_name">Internet của tiền tệ</p> </a>
+                            <p class="book_price">Giá: 159.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+
+                    <!-- Book -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="./html/Category 6/book 5.html">
+                            <div class="img_book">
+                                <img class="img-responsive" src="./images/Category6/giua-dong-xoay-cuoc-doi-fix.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+
+                            </div>
+                        </a>
+                        
+                        <div class="info_book">
+                            <a href="./html/Category 6/book 5.html"> <p class="book_name">Giữa dòng xoáy cuộc đời</p> </a>
+                            <p class="book_price">Giá: 135.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+
+                    <!-- Book -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="./html/Category 5/book 1.html">
+                            <div class="img_book">
+                                <img class="img-responsive" src="./images/Category5/8935251401165.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+
+                            </div>
+                        </a>
+                        
+                        <div class="info_book">
+                            <a href="./html/Category 5/book 1.html"> <p class="book_name">Khi Hơi Thở Hóa Thinh Không</p> </a>
+                            <p class="book_price">Giá: 89.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+
+                
+                </div>
+
+                <!-- row new book (above) -->
+
+                <!-- Baner (below) -->
+
+                <a href="">
+                    <img class="img-responsive" src="./images/CMNM.jpg" alt="">
+                </a>
+
+                <!-- Baner (above) -->
+
+                <!-- row best seller (below) -->
+                <div id="new_book">
+                    <a href="">SÁCH BÁN CHẠY </a>
+                </div>
+
+                <div class="row">
+                    
+                    <!-- Book -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="./html/Category 6/book 1.html">
+                            <div class="img_book">
+                                <img class="img-responsive" src="./images/Category6/66-c2a1ed1a-a1c2-467d-b30f-805bbc3b240f.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+
+                            </div>
+                        </a>
+                        
+                        <div class="info_book">
+                            <a href="./html/Category 6/book 1.html"> <p class="book_name">GNSV - Việt Nam Anh Kiệt</p> </a>
+                            <p class="book_price">Giá: 210.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+
+                    <!-- Book -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="./html/Category 3/book 2.html">
+                            <div class="img_book">
+                                <img class="img-responsive" src="./images/Category3/tieu-su-steve-jobs.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+
+                            </div>
+                        </a>
+                        
+                        <div class="info_book">
+                            <a href="./html/Category 3/book 2.html"> <p class="book_name">Tiểu Sử Steve Jobs</p> </a>
+                            <p class="book_price">Giá: 289.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+
+                    <!-- Book -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="./html/Category 1/book 2.html">
+                            <div class="img_book">
+                                <img class="img-responsive" src="./images/Category1/cuoc-cach-mang-nen-tang.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+
+                            </div>
+                        </a>
+                        
+                        <div class="info_book">
+                            <a ref="./html/Category 1/book 2.html"> <p class="book_name">Cuộc cách mạng nền tảng </p> </a>
+                            <p class="book_price">Giá: 239.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+
+                    <!-- Book -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="./html/Category 5/book 2.html">
+                            <div class="img_book">
+                                <img class="img-responsive" src="./images/Category5/110-bf3a663f-f954-48bc-bffd-593271079d3f.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+
+                            </div>
+                        </a>
+                        
+                        <div class="info_book">
+                            <a href="./html/Category 5/book 2.html"> <p class="book_name">Hồi Ký Lý Quang Diệu</p> </a>
+                            <p class="book_price">Giá: 239.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- row Best seller (above) -->
+
+
+                <!-- baner 2 (below) -->
+
+                <a href="#">
+                    <img class="img-responsive" src="./images/slider-re1.jpg" alt="">
+                </a>
+
+                <!-- baner 2 (above) -->
+                
+
+                <!-- row coming book (below) -->
+
+                <div id="new_book">
+                    <a href="">SÁCH SẮP PHÁT HÀNH </a>
+                </div>
+
+                <div class="row">
+                    
+                    <!-- Book -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="./html/Category 6/book 3.html">
+                            <div class="img_book">
+                                <img class="img-responsive" src="./images/Category6/quang trung.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+
+                            </div>
+                        </a>
+                        
+                        <div class="info_book">
+                            <a href="./html/Category 6/book 3.html"> <p class="book_name">Quang Trung</p> </a>
+                            <p class="book_price">Giá: 200.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+
+                    <!-- Book -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="./html/Category 2/book 1.html">
+                            <div class="img_book">
+                                <img class="img-responsive" src="./images/Category2/bach-khoa-toan-thu-ve-khoi-nghiep-155fb88e-d46d-4c07-b46c-9c41f7b70e4b.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+
+                            </div>
+                        </a>
+                        
+                        <div class="info_book">
+                            <a href="./html/Category 2/book 1.html"> <p class="book_name">Báck khoa toàn thư về khởi nghiệp</p> </a>
+                            <p class="book_price">Giá: 319.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+
+                    <!-- Book -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="./html/Category 6/book 4.html">
+                            <div class="img_book">
+                                <img class="img-responsive" src="./images/Category6/nguoi-toi-gian-d45b043f-d99d-4b46-811b-2f30c13a9e2a.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+
+                            </div>
+                        </a>
+                        
+                        <div class="info_book">
+                            <a href="./html/Category 6/book 4.html"> <p class="book_name">Người Tối Giản</p> </a>
+                            <p class="book_price">Giá: 120.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+
+                    <!-- Book -->
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="./html/Category 4/book 1.html">
+                            <div class="img_book">
+                                <img class="img-responsive" src="./images/Category4/tu-duy-tinh-gon.jpg" alt="">
+                                <button class="btn"><i class="fas fa-shopping-cart"></i> MUA NGAY</button>
+
+                            </div>
+                        </a>
+                        
+                        <div class="info_book">
+                            <a href="./html/Category 4/book 1.html"> <p class="book_name">Tư Duy Tinh Gọn </p> </a>
+                            <p class="book_price">Giá: 189.000 đ</p>
+                            <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- row coming book (above) -->
+
+            </div>
+            <!-- Book separedter (above) -->
+           
+            
+
+         </div>
+
+         <!-- MAIN ROW (ABOVE) -->
+
+    </div>
+    
+    <!-- MAIN CONTAINER (ABOVE) -->
+
+
+    <!-- ADVERTISING CONTAINER (BELOW) -->
+    <div class="container advertising" style="border: 0.1px #f2f2f2 solid">
+
+        <!-- BANNER ROW (BELOW) -->
+
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">        
+                <a href="#">
+                    <div class="ads_img">
+                        <img class="img-responsive w3-hover-sepia" src="./images/econocracy.jpg" alt="">
+                        <div class="ads_quote"> Tìm hiểu ngay</div>
+                    </div>
+                </a>
+            </div> 
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <a href="#">
+                    <div class="ads_img">
+                        <img class="img-responsive w3-hover-sepia" src="./images/pay-book-banner-3-new.jpg" alt="">
+                        <div class="ads_quote"> Tìm hiểu ngay</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="ads_img">
+                        <img class="img-responsive w3-hover-sepia" src="./images/B-C-book-club-banner-1100x200.png" alt="">
+                        <div class="ads_quote"> Tìm hiểu ngay</div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <!-- BANNER ROW (ABOVE) -->
+
+        <!-- BLOG ROW (BELOW) -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                
+                <div id="new_book">
+                    <a href="">BLOG</a>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+                        <a href="#">
+                            <img class="img-responsive" src="./images/photo-1-1508225300913-crop-1508225531803.jpg" alt="">
+                            <p class="blog_name">100 cuốn sách vĩ đại nhất mọi thời đại</p>
+                        </a>
+                        <p class="blog_ds">Đọc sách không chỉ để giải trí mà còn giúp bạn mở rộng tư duy, tâm hồn, xây dựng những luồng suy nghĩ tích...</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+                        <a href="#">
+                            <img class="img-responsive" src="./images/Book cover.jpg" alt="">
+                            <p class="blog_name">10 cuốn sách mà mọi lập trình viên nên đọc</p>
+                        </a>
+                        <p class="blog_ds">Đọc sách không chỉ để giải trí mà còn giúp bạn mở rộng tư duy, tâm hồn, xây dựng những luồng suy nghĩ tích...</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
+                        <a href="#">
+                            <img class="img-responsive" src="./images/RDSTORE-BannerAds-910x560-RUN.jpg" alt="">
+                            <p class="blog_name">Làm sao để đọc sách hiệu quả</p>
+                        </a>
+                        <p class="blog_ds">Đọc sách không chỉ để giải trí mà còn giúp bạn mở rộng tư duy, tâm hồn, xây dựng những luồng suy nghĩ tích...</p>
+                    </div>
+                
+                </div>
+                
+
+            </div>
+        </div>
+
+        <!-- BLOG ROW (ABOVE) -->
+
+
+    </div>
+    <!-- ADVERTISING CONTAINER (ABOVE) -->
+
+
+
+    <!-- FOOTER CONTAINER (BELOW) -->
+
+    <div class="container">
+
+        <div class="row permistion">
+            
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        
+                <p><i class="fas fa-exchange-alt"></i>  Đổi trả trong 15 ngày</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <p> <i class="fas fa-truck"></i> Giao hàng trong 2h   </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <P> <i class="fas fa-check-circle"></i> Sản phẩm chính hãng 100%</P>
+            </div>
+            
+        </div>
+        
+            
+        <div class="row footer">
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                <a href="#"><img src="./images/Logo.png" alt=""></a>
+                <div>
+                    <a href="#" class="fa fa-facebook fa-lg social"></a>
+                    <a href="#" class="fa fa-twitter fa-lg social"></a>
+                    <a href="#" class="fa fa-google fa-lg social"></a>
+                    <a href="#" class="fa fa-linkedin fa-lg social"></a>
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                <p>Nhập địa chỉ Email để nhận thông tin sớm nhất</p>
+                <div>
+                    <input class="input_email" type="text" placeholder="example@gmail.com">
+                    <button class="submit_email" type="submit">Gửi</button>
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 contact text-center">
+                <p>LIÊN HỆ</p>
+                <P><i class="fas fa-phone"></i>  0966886181</P>
+                <p><i class="fas fa-map-marker"></i>  42 Nguyễn Khánh Toàn, Cầu Giấy, Hà Nội</p>
+                <p><i class="fas fa-envelope"></i>  contact@itbooks.com</p>
+            </div>                    
+            
+        </div>
+            
+
+        <div class="row copyright">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <p><p>© 2018 ITBooks All Rights Reserved</p></p>
+            </div>
+        </div>
+
+    </div>        
+
+
+    <!-- FOOTER CONTAINER (ABOVE) -->
+            
+
+
+
+    
+    <script src="./other source/jquery-3.2.1.min.js"></script>
+    <script src="./other source/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="./js/style.js"></script>
+
+</body>
+</html>

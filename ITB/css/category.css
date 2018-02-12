@@ -265,6 +265,13 @@
 
 
     /* Responsive (below)*/
+
+    @media screen and (max-width: 990px){
+        .hide_990px {
+            display: none;
+        }
+    }
+
     @media screen and (max-width: 860px) {
 
         .topnav a {display: none;}
@@ -577,6 +584,62 @@
     
 
     /* Discount Book (above) */
+
+    /* ROW BREADCRUMB NAV (BELOW) */
+    
+    ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #eee;
+        margin: 20px 0px 20px 0px !important;
+    }
+
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 14px;
+    }
+
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+    }
+
+    ul.breadcrumb li a {
+        color: #0275d8;
+        text-decoration: none;
+    }
+
+    ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }
+
+    /* ROW BREADCRUMB NAV (ABOVE) */
+
+    /* Pagination (below) */
+
+        /* Pagination links */
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+            border-radius: 2px;
+        }
+
+        /* Style the active/current link */
+        .pagination a.actived {
+            background-color: #f47920;
+            color: white;
+        }
+
+        /* Add a grey background color on mouse-over */
+        .pagination a:hover:not(.active) {background-color: #ddd;}
+
+         /* Pagination (above) */
 
 
     /* Row Book (below) */

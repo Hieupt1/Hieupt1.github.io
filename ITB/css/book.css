@@ -1,4 +1,4 @@
- 
+
 /* HEAD (BELOW)*/
 
     /* Logo */
@@ -21,7 +21,7 @@
 
     /* Form (below) */
     #login_form {
-        padding: 20px 0px 10px 0px;
+        padding: 20px 0px 0px 0px;
         float: right;
         margin: 0px;
     }
@@ -66,7 +66,7 @@
             padding-bottom: 5px;
             padding-top: 5px;
         }
-    }    
+    } 
 
     /* Form (above)*/
 
@@ -266,6 +266,15 @@
 
     /* Responsive (below)*/
     @media screen and (max-width: 860px) {
+        #slogon {
+            display: none;
+        }
+
+        #login_form {
+            text-align: center;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
 
         .topnav a {display: none;}
         
@@ -312,74 +321,184 @@
     /* Responsive (above)*/
 
 
-    /* Slide -show (below)*/
-    * {box-sizing:border-box}
-
-    .slideshow-container {
-        max-width: 1500px;
-        position: relative;
-        margin: 0px;
-    }
-
-    .mySlides {
-        display: none;
-        margin: 0px;
-    }
-
-    .prev, .next {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        width: auto;
-        margin-top: -22px;
-        padding: 16px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-    }
-
-    .next {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-    }
-
-    .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
-    }
-
-    .dot_list {
-        position: absolute;
-        bottom: 20px;
-        width: 100%;
-    }
-
-    .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-    }
-
-    .dot {
-        cursor:pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-    }
-
-    .active, .dot:hover {
-        background-color: #717171;
-    }
-    /* Slide -show (above)*/
-
 /* HEAD (ABOVE)*/
+
+
+/* MAIN CONTAINER BOOK (BELOW) */
+
+    /* ROW BREADCRUMB NAV (BELOW) */
+    
+    ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #eee;
+        margin: 20px 0px 20px 0px !important;
+    }
+
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 14px;
+    }
+
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+    }
+
+    ul.breadcrumb li a {
+        color: #0275d8;
+        text-decoration: none;
+    }
+
+    ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }
+
+    /* ROW BREADCRUMB NAV (ABOVE) */
+
+
+
+    /* ROW MAIN BOOK (BELOW) */
+
+        /* Book Info (below) */
+
+        .book_item_img {
+            padding: 20px;
+            border: 0.1px #eee solid;
+        }
+
+        .book_item_info {
+            padding: 20px;
+        }
+
+        .book_name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .book_item_detail {
+            padding: 20px 0px 10px 0px;
+        }
+
+        .book_item_author {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .book_item_pages {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .book_item_nxb {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .book_item_status {
+            font-weight: bold;
+            color: green;
+        }
+
+        .book_item_price {
+            font-weight: bold;
+            color: #f47920;
+            font-size: 18px;
+        }
+
+        .btn_buy {
+            width: 150px;
+            height: 40px;
+            margin: 0px 10px 10px 0px;
+            color: white;
+            background-color: #f47920;
+            border: none;
+            border-radius: 3px;
+        }
+
+        .btn_buy:hover {
+            background-color: green;
+        }
+
+        .btn_buy_ebook {
+            background-color: #717171;
+        }
+
+        .btn_read {
+            background-color: #717171;
+        }
+
+
+
+        @media screen and (max-width: 900px) {
+            .btn_buy {
+                width: 90px;
+                font-size: 10px;
+            }
+        }
+
+        .book_permistion {
+            margin: 10px 0px 10px 0px;
+            font-size: 12px;
+            color: #333;
+        }
+
+        /* Book Info (above) */
+
+        /* Book description (below) */
+
+        /* Style the tab */
+        .tab {
+            overflow: hidden;
+            border: 0.1px solid #eee;
+            background-color: #f1f1f1;
+            margin: 10px 0px 0px 0px !important;
+            padding: 0px 0px 0px 0px !important;
+
+        }
+
+        /* Style the buttons that are used to open the tab content */
+        .tab button {
+            background-color: #ccc;
+            float: left;
+            border: 0.1px solid #ccc;
+            outline: none;
+            cursor: pointer;
+            padding: 10px 0px 10px 0px;
+            transition: 0.3s;
+            width: 150px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #f47920;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 20px 20px;
+            border: 1px solid #eee;
+            border-top: none;
+            text-align: justify;
+        }
+
+
+        /* Book description (above) */
+
+
+    /* ROW MAIN BOOK (ABOVE) */
+
+
+/* MAIN CONTAINER BOOK (ABOVE) */
 
 
 /* MAIN CONTAINER (BELOW) */
@@ -682,16 +801,14 @@
         
     /* Row Book (above) */
 
-
 /* MAIN CONTAINER (ABOVE) */
 
 
 /* ADVERTISING CONTAINER (BELOW) */
 
 .advertising {
-    /* padding: 0px !important; */
-    margin: 0px 0px 0px 0px;
-    padding: 20px 0px 20px 0px;
+    padding: 0px !important;
+    margin: 20px 0px 20px 0px;
 }
 
     /* Baner (below) */

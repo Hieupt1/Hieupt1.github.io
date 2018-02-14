@@ -66,6 +66,12 @@
             padding-bottom: 5px;
             padding-top: 5px;
         }
+
+        #signup,#login {
+            width: 46%;
+            height: 30px;
+            font-size: 12px;
+        }
     } 
 
     /* Form (above)*/

@@ -1,0 +1,22 @@
+/* html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif} */
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.name {
+    width: 100%;
+    background-color: #377cc6;
+    color: white;
+    font-size: 12px;
+    opacity: 0.79;
+    text-align: center;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.find {
+    margin-top:14px;
+}

@@ -1,0 +1,84 @@
+p {
+    color: blue;
+    font-family:'Cabin', sans-serif;    
+}
+
+/* Table */
+
+table, th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    width: 60%;
+}
+
+
+
+/* JQuery */
+.wrapper {
+    width: 100%;
+    padding: auto;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.title {
+    height: 50px;
+    line-height: 50px;
+    background-color: royalblue;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;   
+}
+
+.describle {
+    height: 60px;
+    background-color: rgb(82, 99, 51);
+    font-size: 20px;
+    margin: 5px;
+}
+/* từ bên try.js*/
+.title_add {
+    background-color: green;
+}
+
+
+#animation {
+    text-align: center;
+}
+
+
+/* JQuery */
+
+.wrapper {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.click {
+    width: 200px;
+    height: 50px;
+    border-radius: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+#message {
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Game */
+
+.table {
+    width: 200px;
+    height: 200px;
+}
+
+td {
+    cursor: pointer;
+}
